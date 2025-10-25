@@ -16,7 +16,7 @@ So far, the project contains:
 - **Helper utilities** for common assertions and actions  
 - **“Component” files** that provide helpers for reusable UI elements (e.g., Angular form fields)  
 - **Page objects**, which are lighter and have fewer functions than the components  
-- **Fixtures** like demo `.MILO` files and locales used for assertions  
+- **Fixtures** for certain application states, alongside files like `demo.MILO` and `locales.ts` used for assertions
 - **An API helper** for interacting with endpoints during test runs (e.g., creating a new user, simulating an expired trial, etc.) - the endpoints are provided by LEGGERA2’s backend and exposed in the development pipeline
 
 I often get excited and keep **refactoring and improving the helpers** around the tests, so even with a few `.spec.ts` files, there’s already a solid foundation for scalable, maintainable automation code.
