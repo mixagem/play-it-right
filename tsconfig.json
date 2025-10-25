@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // Defines the target JS version for the output (ES2020 is a safe, modern choice)
+    "target": "ES2020", 
+    
+    // **Crucial: Tells TypeScript to include the ES2022 library definitions**
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], 
+    
+    // Defines the module system (CommonJS is standard for Node.js)
+    "module": "CommonJS", 
+    
+    // Allows default imports from modules with no default export
+    "esModuleInterop": true, 
+    
+    // Ensures all imported modules are used
+    "forceConsistentCasingInFileNames": true, 
+    
+    // Enables strict type checking (recommended)
+    "strict": true, 
+    
+    // Disallow implicitly 'any' type
+    "noImplicitAny": true, 
+    
+    // Ensures all code paths return a value
+    "noUnusedLocals": true, 
+    "noUnusedParameters": true, 
+    
+    // Where to place the compiled JavaScript files
+    "outDir": "./dist" 
+  },
+  // Include all TypeScript files in the project directory
+  "include": ["**/*.ts"] 
+}
